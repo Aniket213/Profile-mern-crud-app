@@ -1,0 +1,129 @@
+.about{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.aboutbox{
+    width: 750px;
+    text-align: left;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.13);
+    backdrop-filter: blur(15px);
+    color: white;
+    padding: 2rem;
+    margin-top: 3rem;
+    z-index: 2;
+}
+.aboutheading{
+    font-weight: 500;
+    border-bottom: 4px solid blue;
+}
+.aboutpara{
+    padding: 1rem 0;
+}
+.aboutflex{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutflexitems{
+    width: 50%;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+.abouti{
+    margin-right: 1rem;
+    display: inline-block;
+    color: #08fdd8;
+    font-size: 1.3rem;
+}
+.abouta{
+    text-decoration: none;
+    color: white;
+}
+.contactnum, .github{
+    padding-left: 7rem;
+}
+.aboutend{
+    padding: 0.5rem 2rem;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, darkblue, #08fdd8);
+}
+.aboutend p{
+    padding-top: 0.6rem;
+}
+.aboutbutton{
+    border: 4px solid white;
+    padding: 0.5rem 2rem;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.aboutbutton:hover{
+    box-shadow: inset 12em 0 white;
+    color: blue;
+}
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------- */
+
+
+
+@media (min-width: 0) and (max-width: 391px){
+    .about{
+        padding-top: 0rem;
+        width: 100vw;;
+        height: 110vh;
+    }
+    .aboutbox{
+        border-radius: 0;
+        width: 96%;
+    }
+    .aboutheading{
+        font-size: 1.5rem;
+    }
+    .aboutpara{
+        font-weight: 300;
+    }
+    .aboutflex{
+        margin-top: 1rem;
+        display: block;
+    }
+    .aboutflexitems{
+        width: 100%;
+        font-weight: 400;
+    }
+    .contactnum, .github{
+        padding-left: 0rem;
+    }
+    .aboutend{
+        padding: 0.8rem 2rem;
+        margin-top: 2rem;
+        background: linear-gradient(90deg, darkblue, #01d2b3);
+    }
+    .aboutend p{
+        padding-top: 0rem;
+    }
+    .aboutbutton{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+

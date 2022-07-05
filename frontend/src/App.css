@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+.darkmode{
+  --bgblack : #000;
+  /* -------nav---------- */
+  --logohover : #011ffd;
+  --navbg : transparent;
+  --logo : white;
+  --navlink1 : #08fdd8;
+  --navlink2 : #fdf200;
+  --navlink3 : #ff61be;
+  --navlink1a : #08fdd8;
+  --navlink2a : #fdf200;
+  --navlink3a : #ff61be;
+  --navlink1hbg : #08fdd8;
+  --navlink2hbg : #fdf200;
+  --navlink3hbg : #ff61be;
+  --navlink1hsh : #08fdd8;
+  --navlink2hsh : #fdf200;
+  --navlink3hsh : #ff61be;
+  --navlink1hc : #000;
+  --navlink2hc : #000;
+  --navlink3hc : #000;
+  /* ---------- allcard-------------- */
+  --cardbg : #111;
+  --cardtext : #fff;
+  --cardbtnsbg : #000;
+  --cardbtnsborder : #fff;
+  /* ---------- add page-------------- */
+  --addbg : #000;
+  --addformbg : rgba(141, 141, 141, 0.15);
+  --formshadow : transparent;
+  --redball : #fe0853;
+  --yellowball : #fdf200;
+  --greenball : #08fdd8;
+  --pinkball : #ff61be;
+  --redballsh : #fe0853;
+  --yellowballsh : #fdf200;
+  --greenballsh : #08fdd8;
+  --pinkballsh : #ff61be;
+  --ballinsetsh : rgba(0,0,0,.35);
+  --chooseavatar : #fff;
+  --avatarchecked : #fdf200;
+  --avatarsh : #fdf200;
+  --inputborder : #fff;
+  --inputtextclr : #fdf200;
+  --optionbg : #fdf200;
+  --submitbtnclr : white;
+  --submitbtn: #fe0853;
+  --submitbtnsh : #fe0853;
+/* ------------expand---------------- */
+  --expandbg : #000;
+  --expandtextclr: #fff;
+  --expandborder: #fff;
+  --expandhover: #011ffd;
+  --expandbrright : rgba(255, 255, 255, 0.237);
+  --expandbtnsbr : #fff;
+  --expandbtnsclr : #fff;
+  --expandeditbtnbg: #011ffd;
+  --expanddelbtnbg: #fe0853;
+}
+
+.lightmode{
+  --bgblack : #fff;
+  /* -------nav---------- */
+  --logohover : #011ffd;
+  --navbg : rgba(255, 255, 255, 0.259);
+  --navsh : rgba(0, 0, 0, 0.132);
+  --logo : black;
+  --navlink1 : #000;
+  --navlink2 : #000;
+  --navlink3 : #000;
+  --navlink1a : #08fdd8;
+  --navlink2a : #fdf200;
+  --navlink3a : #ff61be;
+  --navlink1hbg : #08fdd8;
+  --navlink2hbg : #fdf200;
+  --navlink3hbg : #ff61be;
+  --navlink1hsh : #ccc;
+  --navlink2hsh : #ccc;
+  --navlink3hsh : #ccc;
+  --navlink1hc : #000;
+  --navlink2hc : #000;
+  --navlink3hc : #000;
+  /* ---------- allcard-------------- */
+  --cardbg : rgb(255, 255, 255);
+  --cardtext : black;
+  --cardbtnsbg : #fff;
+  --cardbtnsborder : #333;
+  /* ---------- add page-------------- */
+  --addbg : #fff;
+  --addformbg : #fff;
+  --formshadow : rgba(0, 0, 0, 0.167);
+  --redball : #fe0853;
+  --yellowball : #fdf200;
+  --greenball : #08fdd8;
+  --pinkball : #ff61be;
+  --redballsh : transparent;
+  --yellowballsh : transparent;
+  --greenballsh : transparent;
+  --pinkballsh : transparent;
+  --ballinsetsh : transparent;
+  --chooseavatar : #000;
+  --avatarchecked : #fdf200;
+  --avatarsh : #fdf200;
+  --inputborder : #000;
+  --inputtextclr : #000;
+  --optionbg : #fff;
+  --submitbtnclr : #000;
+  --submitbtn: red;
+  --submitbtnsh : transparent;
+/* ------------expand---------------- */
+  --expandbg : #fff;
+  --expandtextclr: #000;
+  --expandborder: #000;
+  --expandhover: #011ffd;
+  --expandbrright : rgba(0, 0, 0, 0.166);
+  --expandbtnsbr : #000;
+  --expandbtnsclr : #000;
+  --expandeditbtnbg: #011ffd;
+  --expanddelbtnbg: #fe0853;
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.app {
+  text-align: center;
+}
+
